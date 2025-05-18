@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Firdaus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .cv-container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <h1 id="name">Firdaus Nuzula</h1>
+        <p id="title">Automation Tester & SQL Enthusiast</p>
+
+        <div class="contact">
+            <p>Email: <span id="email"></span></p>
+            <p>Telepon: <span id="phone">08998703007</span></p>
+        </div>
+
+        <h2>Keahlian</h2>
+        <ul id="skills">
+            <li>Automation Testing</li>
+            <li>SQL</li>
+            <li>Teknologi dan gadget</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("title").innerText = "Software Tester | Tech Enthusiast";
+        document.getElementById("email").innerText = "nuzula278@outlook.com";
+        document.getElementById("phone").innerText = "08998703007";
+    </script>
+</body>
+</html>
